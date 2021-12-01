@@ -1,0 +1,10 @@
+# Everything will be ignored by default
+*
+.*
+
+# Whitelisted files/folders
+!.gitignore
+!pom.xml
+!README.md
+!src
+!src/**

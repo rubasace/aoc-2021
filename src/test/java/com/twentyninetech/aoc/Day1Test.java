@@ -7,14 +7,14 @@ import static org.junit.jupiter.api.Assertions.*;
 class Day1Test {
 
     @Test
-    void shouldCountIncrements() throws Exception {
+    void shouldCountIncrements() {
         int result = Day1.countIncrements("day1-test.txt");
 
         assertEquals(7, result);
     }
 
     @Test
-    void shouldCountIncrementsByWindows() throws Exception {
+    void shouldCountIncrementsByWindows() {
         int result = Day1.countIncrementsByWindows("day1-test.txt");
 
         assertEquals(5, result);
